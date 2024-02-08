@@ -1,0 +1,30 @@
+:root {
+  --background-color: #cbc1c9;
+  --color-light-theme: #000000;
+  --color-dark-theme: #ffffff;
+
+  --page-width: 800px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e0e4e4;
+}
+
+.App {
+  width: calc(100vw - 20px);
+  margin: 0 auto;
+
+  @media(min-width: 768px) {
+    width: calc(100vw - var(--page-width));
+  }
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: white;
+}

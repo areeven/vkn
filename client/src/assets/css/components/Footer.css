@@ -1,0 +1,18 @@
+.footer-container {
+  background: var(--background-color);
+  height: 90px;
+  position: fixed;
+  bottom: 0;
+  left: auto;
+  right: auto;
+  overflow: hidden;
+  text-align: center;
+  width: calc(100vw - 20px);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+
+  @media(min-width: 768px) {
+    height: 200px;
+    width: calc(100vw - var(--page-width));
+  }
+}

@@ -1,0 +1,11 @@
+.credentials-container {
+  text-align: center;
+  background: var(--background-color);
+  border-radius: 8px;
+  height: 150px;
+  height: calc(100vh - 130px);
+
+  @media(min-width: 768px) {
+    height: calc(100vh - 260px);
+  }
+}

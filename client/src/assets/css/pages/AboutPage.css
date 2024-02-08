@@ -1,0 +1,18 @@
+.bio-container {
+  background: var(--background-color);
+  color: var(--color-dark-theme);
+  border-radius: 8px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  overflow: hidden;
+
+  .bio-image {
+    width: 150px;
+    border-radius: 8px;
+
+    @media(min-width: var(768px)) {
+      width: 300px;
+    }
+  }
+}
